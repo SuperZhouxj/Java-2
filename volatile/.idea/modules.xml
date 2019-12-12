@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/P10_Singleton/P10_Singleton.iml" filepath="$PROJECT_DIR$/P10_Singleton/P10_Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/P4_kejianxing/P4_kejianxing.iml" filepath="$PROJECT_DIR$/P4_kejianxing/P4_kejianxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/volatile.iml" filepath="$PROJECT_DIR$/volatile.iml" />
     </modules>
