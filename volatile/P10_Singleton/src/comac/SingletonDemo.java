@@ -2,13 +2,18 @@ package comac;
 
 
 public class SingletonDemo {
-    private static SingletonDemo instance;
+    //加锁volatile禁止指令重排，DCL不一定线程安全，有指令重排的存在
+    private static volatile SingletonDemo instance;
     public SingletonDemo(){
         System.out.println(Thread.currentThread().getName()+"\t 我的构造方法SingletonDemo");
     }
     public static SingletonDemo getInstance(){
-        if (instance == null){
-            instance = new SingletonDemo();
+        //DCL(Double Check Lock )双端检锁机制
+        if (instance == null){//加锁前判断
+            synchronized (SingletonDemo.class){
+                if (instance == null)//加锁后判断
+                    instance = new SingletonDemo();
+            }
         }
         return instance;
     }
