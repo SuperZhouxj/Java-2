@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/P20_ContainerNotSafeDemo/P20_ContainerNotSafeDemo.iml" filepath="$PROJECT_DIR$/P20_ContainerNotSafeDemo/P20_ContainerNotSafeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection.iml" filepath="$PROJECT_DIR$/Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P20_ContainerNotSafeDemoList/P20_ContainerNotSafeDemoList.iml" filepath="$PROJECT_DIR$/P20_ContainerNotSafeDemoList/P20_ContainerNotSafeDemoList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P22_ContainerNotSafeSet/P22_ContainerNotSafeSet.iml" filepath="$PROJECT_DIR$/P22_ContainerNotSafeSet/P22_ContainerNotSafeSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P23_ContainterNotSafeHash/P23_ContainterNotSafeHash.iml" filepath="$PROJECT_DIR$/P23_ContainterNotSafeHash/P23_ContainterNotSafeHash.iml" />
     </modules>
   </component>
 </project>
