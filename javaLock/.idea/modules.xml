@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/P27_ReenterLockDemo/P27_ReenterLockDemo.iml" filepath="$PROJECT_DIR$/P27_ReenterLockDemo/P27_ReenterLockDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P29_spinLockDemo/P29_spinLockDemo.iml" filepath="$PROJECT_DIR$/P29_spinLockDemo/P29_spinLockDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaLock.iml" filepath="$PROJECT_DIR$/javaLock.iml" />
     </modules>
   </component>
