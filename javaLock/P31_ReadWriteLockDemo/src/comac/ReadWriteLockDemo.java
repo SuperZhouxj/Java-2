@@ -50,7 +50,7 @@ public class ReadWriteLockDemo {
 
         for (int i =1;i<=5;i++){
             Integer temp = i;
-                new Thread(()->{
+            new Thread(()->{
                 readWriteLockDemo.set(temp+"",temp+"");
             },String.valueOf(temp)).start();
         }

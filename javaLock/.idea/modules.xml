@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/P27_ReenterLockDemo/P27_ReenterLockDemo.iml" filepath="$PROJECT_DIR$/P27_ReenterLockDemo/P27_ReenterLockDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/P29_spinLockDemo/P29_spinLockDemo.iml" filepath="$PROJECT_DIR$/P29_spinLockDemo/P29_spinLockDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/P31_ReadWriteLockDemo/P31_ReadWriteLockDemo.iml" filepath="$PROJECT_DIR$/P31_ReadWriteLockDemo/P31_ReadWriteLockDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P32_CountDownLatchDemo/P32_CountDownLatchDemo.iml" filepath="$PROJECT_DIR$/P32_CountDownLatchDemo/P32_CountDownLatchDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaLock.iml" filepath="$PROJECT_DIR$/javaLock.iml" />
     </modules>
   </component>
