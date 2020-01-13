@@ -1,4 +1,4 @@
-##P32 CountDownLatch
+## P32 CountDownLatch
 
 
 `CountDownLatch` 主要有两个方法，当一个或者多个线程调用`await` 方法时，调用线程会被阻塞，其他线程调用`countdown`
@@ -11,7 +11,7 @@ public static void main(String args[]) throws Exception{
         for(int i =1;i<=6;i++){
             new Thread(()->{
                 System.out.println(Thread.currentThread().getName()+"\t 灭亡");
-                countDownLatch.countDown();
+                countDownLatch.countDown();~~~~
             },CountryEnum.check(i).getMessage()).start();
         }
 
